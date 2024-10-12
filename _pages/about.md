@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-[Youtube] https://www.youtube.com/@gsythdli
+[Youtube](https://www.youtube.com/@gsythdli)
