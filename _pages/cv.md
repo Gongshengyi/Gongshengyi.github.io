@@ -6,4 +6,5 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<embed src="/_pages/CV-GONG Shengyi.pdf" type="application/pdf" width="100%" height="600px" />
+
+<iframe src="/_pages/CV-GONG Shengyi.pdf" width="50%" height="600px"></iframe>
