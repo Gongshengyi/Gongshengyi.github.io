@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * M.S. in Goldsmiths, University of London, 2023
-* MA / MSC Virtual and Augumented Reality
+* MA / MSC Virtual and Augmented Reality
 * B.S. in Gengdan Institute of Beijing University of Technology, 2016
 * Bachelor of Design in Theater Film and TV Fine Arts Design
 
