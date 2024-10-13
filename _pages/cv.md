@@ -26,3 +26,10 @@ Work experience
   * Film Crew of “ A Tribute to Heroes”
   * Developed my observing ability and improved my aesthetic capability
   
+Honors
+======
+* June 2020: Excellent Graduation Design
+* June 2020: Excellent Graduate
+* March 2020: Second-class scholarship in 2018-2019 academic year
+* June 2019: Third Prize in the fourth of Innovation and Entrepreneurship Competition for Undergraduate Students
+* December 2017: Excellent Student Cadre
