@@ -6,4 +6,4 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<embed src="/assets/mydocument.pdf" type="application/pdf" width="100%" height="600px" />
+<embed src="/_pages/CV-GONG Shengyi.pdf" type="application/pdf" width="100%" height="600px" />
