@@ -7,8 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-—— A creative interactive prototype designer in the field of MR. 
+· A creative interactive prototype designer in the field of MR. 
 
-—— A programmer who is skilled in analyzing problems from multiple perspectives and providing innovative solutions.
+· A programmer who is skilled in analyzing problems from multiple perspectives and providing innovative solutions.
 
-My hobby: Develop some creative game mechanics.
+· I strive to blend my artistic passion with technical skills to create an immersive experience.
+
+Hobbies: Fitness, Meditation, Games, Music, etc.
