@@ -16,6 +16,9 @@ Education
 * B.S. in Gengdan Institute of Beijing University of Technology, 2016
 * Bachelor of Design in Theater Film and TV Fine Arts Design
 
+Competition experience
+======
+
 Work experience
 ======
 * May 2020 - March 2022: Project Manager & Animation content planner 
