@@ -11,28 +11,54 @@ redirect_from:
 
 Education
 ======
-* M.S. in Goldsmiths, University of London, 2023
-* MA / MSC Virtual and Augumented Reality
-* B.S. in Gengdan Institute of Beijing University of Technology, 2016
-* Bachelor of Design in Theater Film and TV Fine Arts Design
-
-Competition experience
-======
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
 
 Work experience
 ======
-* May 2020 - March 2022: Project Manager & Animation content planner 
-  * Beijing Qinghua Tongheng Planning and Design Institute Co., Ltd. · Full-time
-  * Sharpened my insight in marketing changes, improved my empathy with my users, and enhanced my cooperative ability
+* Spring 2024: Academic Pages Collaborator
+  * Github University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-* Spring 2018: Fashion designer
-  * Film Crew of “ A Tribute to Heroes”
-  * Developed my observing ability and improved my aesthetic capability
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
   
-Honors
+Skills
 ======
-* June 2020: Excellent Graduation Design
-* June 2020: Excellent Graduate
-* March 2020: Second-class scholarship in 2018-2019 academic year
-* June 2019: Third Prize in the fourth of Innovation and Entrepreneurship Competition for Undergraduate Students
-* December 2017: Excellent Student Cadre
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
