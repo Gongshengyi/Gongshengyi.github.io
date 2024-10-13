@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-[Youtube](https://www.youtube.com/@gsythdli)
+—— A creative interactive prototype designer in the field of MR. 
 
-ahhhh
+—— A programmer who is skilled in analyzing problems from multiple perspectives and providing innovative solutions.
+
+My hobby: Develop some creative game mechanics.
