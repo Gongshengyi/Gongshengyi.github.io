@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[点击这里查看 PDF 简历]_pages/CV-GONG Shenyi.pdf)
+<iframe src="/_pages/CV-GONG Shenyi" width="100%" height="600px"></iframe>
