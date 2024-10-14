@@ -13,6 +13,8 @@ redirect_from:
 
 · I strive to blend my artistic passion with technical skills to create an immersive experience.
 
+· practical skill.
+
 Practical skill
 ======
 * Data analysis
