@@ -13,4 +13,13 @@ redirect_from:
 
 · I strive to blend my artistic passion with technical skills to create an immersive experience.
 
+Practical skill
+======
+* Data analysis
+* SWOT
+* User Experiment Designer
+* Independent/Team Game Development
+* MR creative interactive prototype design
+
 Hobbies: Fitness, Meditation, Games, Music, etc.
+======
