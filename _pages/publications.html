@@ -25,3 +25,71 @@ author_profile: true
 <b><strong>·</strong></b>
 
 <img src="https://s2.loli.net/2024/11/01/KOCYeVSxMI7v4f2.png">
+
+<b><strong>·</strong></b>
+<b><strong>Colab csv— data analysis</strong></b>
+<b><strong>!pip install neurokit2
+
+import numpy as np
+
+import pandas as pd
+
+import pandas as pd
+
+import neurokit2 as nk
+
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+data = pd.read_csv('EMG-GSY.csv')
+
+data_lie = data.iloc[:,5]
+
+# data_lie = data.iloc[:,:]
+
+print(len(data_lie))
+
+# subset = data_lie.iloc[4:]
+
+# subset = data_lie.iloc[4:12500].astype(float).fillna(0)
+
+subset = data_lie.iloc[:].astype(float).fillna(0)-np.mean(data_lie.iloc[:].astype(float).fillna(0))
+# convert data to float and decrease mean to increase offset
+# subset = subset/10
+
+time1 =  [ i for i in range(9583-1200, 9583+1200)]
+
+time2 =  [ i for i in range(14157-1200, 14157+1200)]
+
+time3 =  [ i for i in range(18997-1200, 18997+1200)]
+
+time4 =  [ i for i in range(23103-1200, 23103+1200)]
+
+print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window
+
+subset.iloc[time2] = subset.iloc[time1]  # Copy data from time1 time window to time2 time window
+
+print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window again
+
+noise = np.random.normal(0, 100, len(time1))  # Generate random noise
+
+# subset.iloc[time1] = subset.iloc[time1] - 50 + noise
+
+subset.iloc[time2] =  subset.iloc[time1] + np.random.normal(0, 90, len(time1))
+
+# subset.iloc[time1] = subset.iloc[time1] - 50 + np.random.normal(0, 100, len(time1))
+
+subset.iloc[time3] = subset.iloc[time3]+ np.random.normal(0, 65, len(time1))
+
+signals, info = nk.emg_process(subset, sampling_rate=250)
+
+nk.emg_plot(signals, info,static = False)></b>
+
+<img src="https://s2.loli.net/2024/11/01/WTQCwkXK72HGlRM.png">
+
+<b><strong>Training Tutorial</strong></b>
+<b><strong>1. Add training arm data
+2. Import neurokit2 and matplotlib API
+3. Split time series of data
+4. Add random numbers to the noise value</strong></b>
