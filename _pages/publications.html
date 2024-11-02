@@ -28,63 +28,66 @@ author_profile: true
 
 <b><strong>·</strong></b>
 <b><strong>Colab csv— Data analysis</strong></b>
-<b>!pip install neurokit2</b>
 
-<b>import numpy as np</b>
+<ul>
+  <li></strong>!pip install neurokit2</strong></li>
 
-<b>import pandas as pd</b>
+  <li></strong>import numpy as np</strong></li>
 
-<b>import pandas as pd</b>
+  <li></strong>import pandas as pd</strong></li>
 
-<b>import neurokit2 as nk</b>
+  <li></strong>import pandas as pd</strong></li>
 
-<b>import matplotlib.pyplot as plt</b>
+  <li></strong>import neurokit2 as nk</strong></li>
 
-<b>import numpy as np</b>
+  <li></strong>import matplotlib.pyplot as plt</strong></li>
 
-<b>data = pd.read_csv('EMG-GSY.csv')</b>
+  <li></strong>import numpy as np</strong></li>
 
-<b>data_lie = data.iloc[:,5]</b>
+  <li></strong>data = pd.read_csv('EMG-GSY.csv')</strong></li>
 
-<b># data_lie = data.iloc[:,:]</b>
+  <li></strong>data_lie = data.iloc[:,5]</strong></li>
 
-<b>print(len(data_lie))</b>
+  <li></strong># data_lie = data.iloc[:,:]</strong></li>
 
-<b># subset = data_lie.iloc[4:]</b>
+  <li></strong>print(len(data_lie))</strong></li>
 
-<b># subset = data_lie.iloc[4:12500].astype(float).fillna(0)</b>
+  <li></strong># subset = data_lie.iloc[4:]</strong></li>
 
-<b>subset = data_lie.iloc[:].astype(float).fillna(0)-np.mean(data_lie.iloc[:].astype(float).fillna(0))</b>
-<b># convert data to float and decrease mean to increase offset</b>
-<b># subset = subset/10</b>
+  <li></strong># subset = data_lie.iloc[4:12500].astype(float).fillna(0)</strong></li>
 
-<b>time1 =  [ i for i in range(9583-1200, 9583+1200)]</b>
+  <li></strong>subset = data_lie.iloc[:].astype(float).fillna(0)-np.mean(data_lie.iloc[:].astype(float).fillna(0))</strong></li>
+  <li></strong># convert data to float and decrease mean to increase offset</strong></li>
+  <li></strong># subset = subset/10</strong></li>
 
-<b>time2 =  [ i for i in range(14157-1200, 14157+1200)]</b>
+  <li></strong>time1 =  [ i for i in range(9583-1200, 9583+1200)]</strong></li>
 
-<b>time3 =  [ i for i in range(18997-1200, 18997+1200)]</b>
+  <li></strong>time2 =  [ i for i in range(14157-1200, 14157+1200)]</strong></li>
 
-<b>time4 =  [ i for i in range(23103-1200, 23103+1200)]</b>
+  <li></strong>time3 =  [ i for i in range(18997-1200, 18997+1200)]</strong></li>
 
-<b>print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window</b>
+  <li></strong>time4 =  [ i for i in range(23103-1200, 23103+1200)]</strong></li>
 
-<b>subset.iloc[time2] = subset.iloc[time1]  # Copy data from time1 time window to time2 time window</b>
+  <li></strong>print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window</strong></li>
 
-<b>print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window again</b>
+  <li></strong>subset.iloc[time2] = subset.iloc[time1]  # Copy data from time1 time window to time2 time window</strong></li>
 
-<b>noise = np.random.normal(0, 100, len(time1))  # Generate random noise</b>
+  <li></strong>print(list(subset.iloc[time2])[0])  # Print the first data point in the time2 time window again</strong></li>
 
-<b># subset.iloc[time1] = subset.iloc[time1] - 50 + noise</b>
+  <li></strong>noise = np.random.normal(0, 100, len(time1))  # Generate random noise</strong></li>
 
-<b>subset.iloc[time2] =  subset.iloc[time1] + np.random.normal(0, 90, len(time1))</b>
+  <li></strong># subset.iloc[time1] = subset.iloc[time1] - 50 + noise</strong></li>
 
-<b># subset.iloc[time1] = subset.iloc[time1] - 50 + np.random.normal(0, 100, len(time1))</b>
+  <li></strong>subset.iloc[time2] =  subset.iloc[time1] + np.random.normal(0, 90, len(time1))</strong></li>
 
-<b>subset.iloc[time3] = subset.iloc[time3]+ np.random.normal(0, 65, len(time1))</b>
+  <li></strong># subset.iloc[time1] = subset.iloc[time1] - 50 + np.random.normal(0, 100, len(time1))</strong></li>
 
-<b>signals, info = nk.emg_process(subset, sampling_rate=250)</b>
+  <li></strong>subset.iloc[time3] = subset.iloc[time3]+ np.random.normal(0, 65, len(time1))</strong></li>
 
-<b>nk.emg_plot(signals, info,static = False)></b>
+  <li></strong>signals, info = nk.emg_process(subset, sampling_rate=250)</strong></li>
+
+  <li></strong>nk.emg_plot(signals, info,static = False)></strong></li>
+</ul>
 
 <img src="https://s2.loli.net/2024/11/01/WTQCwkXK72HGlRM.png">
 
