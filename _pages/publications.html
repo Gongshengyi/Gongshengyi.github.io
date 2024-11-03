@@ -17,12 +17,6 @@ author_profile: true
       <!-- 引入 archive-single.html 模板文件，用于显示单篇文章的布局样式 -->
     {% endfor %}
   {% endfor %}
-{% else %}
-  <!-- 如果没有定义 publication_category，则仅按倒序显示所有发布的文章 -->
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-    <!-- 引入 archive-single.html 模板文件，显示每篇文章的布局样式 -->
-  {% endfor %}
 {% endif %}
 
 <b><strong>《Weight illusion in VR》</strong></b>
