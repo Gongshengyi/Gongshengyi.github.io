@@ -14,23 +14,6 @@ author_profile: true
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
     <!-- 初始化 title_shown 变量，确保每个类别标题只显示一次 -->
-
-    {% for post in site.publications reversed %}
-      <!-- 倒序循环展示所有发布内容 -->
-      {% if post.category != category[0] %}
-        {% continue %}
-        <!-- 如果文章的类别不属于当前循环的类别，则跳过该文章 -->
-      {% endif %}
-      
-      {% unless title_shown %}
-        <!-- 如果当前类别标题尚未显示 -->
-        <h2>{{ category[1].title }}</h2><hr />
-        <!-- 显示类别标题并添加水平线 -->
-        {% assign title_shown = true %}
-        <!-- 设置 title_shown 为 true，确保类别标题只显示一次 -->
-      {% endunless %}
-
-      {% include archive-single.html %}
       <!-- 引入 archive-single.html 模板文件，用于显示单篇文章的布局样式 -->
     {% endfor %}
   {% endfor %}
