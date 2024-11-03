@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Unreal Project"
+permalink: /portfolio-ui/
+author_profile: true
+---
+
+
+<ul>
+  <li></strong>More details about "Rope Flying"</strong></li>
+  <li></strong>Changed the navigation mode of the VR controller and added a rope flight mechanism</strong></li>
+  <li></strong>Too obsessed with galaxies</strong></li>
+</ul>
+
+<div style="background-color: #f0f0f9; padding: 20px; display: inline-block; border-radius: 8px;">
+    <!-- 不包含图片 -->
+    <a href="https://www.youtube.com/watch?v=4Waxm5gEbt4" target="_blank">
+        <img src="https://s2.loli.net/2024/11/03/wxauDQ27ybBWTAO.jpg" alt="Image Description" style="width:100%; max-width:1080px; border-radius: 8px;">
+    </a>
+    
+    <p style="margin-top: 10px; font-size: 24px; font-weight: bold; color: #333; text-align: center;">
+        Government uses drones to monitor environment at night
+    </p>
+    <!-- 第二行文字：显示“A game made in Game Jam” -->
+    <p style="font-size: 16px; color: #666; text-align: center;">
+        To G: UI and UX Design
+    </p>
+</div>
